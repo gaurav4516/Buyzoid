@@ -34,7 +34,7 @@ export const Navbar = () => {
             <img src={logo} alt="" className="size-7" />
 
             <p className="leading-none text-xl font-semibold font-primary sm:block hidden">
-              Trailed
+             Buyzoid
             </p>
           </Link>
           <div className="relative md:w-72 w-40 space-x-2">

@@ -83,22 +83,16 @@ export const Footer = () => {
           </div>
           {/* social section */}
           <div className="flex gap-6">
+           
             <a
-              href="https://saam-sheron.vercel.app/"
-              target="blank"
-              rel="noopener noreferrer"
-              className="hover:text-primary">
-              <FaFacebook size={24} />{" "}
-            </a>
-            <a
-              href="https://in.linkedin.com/in/saam-sheron"
+              href="https://www.linkedin.com/in/gaurav-singh-944559253"
               target="blank"
               rel="noopener noreferrer"
               className="hover:text-primary">
               <FaLinkedin size={24} />{" "}
             </a>
             <a
-              href="https://www.instagram.com/saam_sheron/"
+              href="https://www.instagram.com/gaurav.singh.45/"
               target="blank"
               rel="noopener noreferrer"
               className="hover:text-primary">

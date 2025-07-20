@@ -49,7 +49,7 @@ app.use((err, req, res, next) => {
 //* Database Connection
 const main = async () => {
   try {
-    await mongoose.connect(process.env.DB_CONNECTION);
+    await mongoose.connect(process.env.MONGO_URI);
     console.log("DB Connected successfully");
   } catch (err) {
     console.error(`Database connection error: ${err}`);
