@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Trailed Luggage: The Perfect Travel Companion",
+    "description": "Discover how Trailed luggage combines style, durability, and functionality, making it the ultimate choice for travelers who want reliability and elegance.",
+    "image": "m2.webp"
+  },
+  {
+    "id": 2,
+    "title": "Revolutionary Backpack Design by Trailed",
+    "description": "Trailed introduces its innovative backpack featuring ergonomic design, lightweight material, and maximum storage capacity for every adventure.",
+    "image": "mb3.webp"
+  },
+  {
+    "id": 3,
+    "title": "Trailed's Duffle Bags Built for Every Journey",
+    "description": "Explore Trailed's premium duffle bags designed to handle everything from gym gear to weekend getaways with unmatched durability and style.",
+    "image": "md2.webp"
+  },
+  {
+    "id": 4,
+    "title": "Trailed Bags Trending for Travel Enthusiasts",
+    "description": "Trailed bags are making waves in the travel community with their record-breaking features, including water resistance, multi-compartment organization, and unique designs.",
+    "image": "m4.webp"
+  },
+  {
+    "id": 5,
+    "title": "Trailed’s Sleek and Stylish Backpacks",
+    "description": "The latest rucksack from Trailed boasts cutting-edge design, improved comfort, and a modern aesthetic, perfect for outdoor enthusiasts and city dwellers alike.",
+    "image": "mb1.webp"
+  }
+]
