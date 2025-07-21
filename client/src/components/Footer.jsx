@@ -14,28 +14,28 @@ export const Footer = () => {
             <ul className="flex gap-4 flex-wrap mb-4 md:mb-0 ">
               <li>
                 <a
-                  href="https://trailed-v2.vercel.app/#"
+                 
                   className="hover:text-primary">
                   Home
                 </a>
               </li>
               <li>
                 <a
-                  href="https://trailed-v2.vercel.app/#top-sellers"
+                 
                   className="hover:text-primary">
                   Top Sellers
                 </a>
               </li>
               <li>
                 <a
-                  href="https://trailed-v2.vercel.app/#recommended"
+                 
                   className="hover:text-primary">
                   Recommended
                 </a>
               </li>
               <li>
                 <a
-                  href="https://trailed-v2.vercel.app/#blogs"
+                 
                   className="hover:text-primary">
                   Blogs
                 </a>
@@ -67,14 +67,14 @@ export const Footer = () => {
             <ul className="flex gap-4 mb-4 md:mb-0 ">
               <li>
                 <a
-                  href="https://trailed-v2.vercel.app/#"
+                  
                   className="hover:text-primary">
                   Privacy Policy
                 </a>
               </li>
               <li>
                 <a
-                  href="https://trailed-v2.vercel.app/#"
+                 
                   className="hover:text-primary">
                   Terms & Conditions
                 </a>
