@@ -1,4 +1,4 @@
 const getBaseUrl = () => {
-  return "https://trailed-v2-server.vercel.app" || "http://localhost:5001";
+  return "https://buyzoid.onrender.com";
 };
 export default getBaseUrl;
