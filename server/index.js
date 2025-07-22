@@ -10,9 +10,15 @@ const PORT = process.env.PORT || 5001;
 //* Middlewares
 app.use(morgan("dev"));
 app.use(express.json());
+
+// ✅ Updated CORS configuration
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://trailed-v2.vercel.app"],
+    origin: [
+      "http://localhost:5173",             // for local dev
+      "https://trailed-v2.vercel.app",     // original frontend
+      "https://buyzoid.vercel.app"         // ✅ your deployed frontend
+    ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
