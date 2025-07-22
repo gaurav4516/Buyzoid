@@ -1,0 +1,180 @@
+[
+  {
+    "_id": "675bc31db9bee9b9e28f7ea4",
+    "title": "Test bag Saam 2",
+    "description": "This is a nice bag super bag",
+    "category": "duffle",
+    "trending": true,
+    "coverImage": "md4.webp",
+    "oldPrice": 3999,
+    "newPrice": 3298,
+    "createdAt": "2024-12-13T05:14:17.524Z",
+    "updatedAt": "2024-12-13T05:48:26.194Z",
+    "__v": 0
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a6",
+    "title": "Trailed 11",
+    "description": "A robust duffle bag designed for gym-goers and weekend travelers.",
+    "category": "duffle",
+    "trending": true,
+    "coverImage": "md1.webp",
+    "oldPrice": 3299,
+    "newPrice": 2599
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a8",
+    "title": "Trailed 13",
+    "description": "A stylish duffle bag made with premium materials for durability.",
+    "category": "duffle",
+    "trending": true,
+    "coverImage": "md3.webp",
+    "oldPrice": 2699,
+    "newPrice": 2199
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a5",
+    "title": "Trailed 10",
+    "description": "Lightweight and durable backpack ideal for daily commutes or travel.",
+    "category": "backpack",
+    "trending": true,
+    "coverImage": "mb4.webp",
+    "oldPrice": 1499,
+    "newPrice": 1099
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d4449659e",
+    "title": "Trailed 3",
+    "description": "A premium luggage option with ample space for all your essentials.",
+    "category": "luggage",
+    "trending": true,
+    "coverImage": "m3.webp",
+    "oldPrice": 3999,
+    "newPrice": 3299
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d4449659f",
+    "title": "Trailed 4",
+    "description": "Elegant luggage featuring a hard-shell design for maximum protection.",
+    "category": "luggage",
+    "trending": false,
+    "coverImage": "m4.webp",
+    "oldPrice": 4999,
+    "newPrice": 4699
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a3",
+    "title": "Trailed 8",
+    "description": "Ergonomic backpack with multiple compartments for organized storage.",
+    "category": "backpack",
+    "trending": true,
+    "coverImage": "mb2.webp",
+    "oldPrice": 2199,
+    "newPrice": 2099
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d4449659d",
+    "title": "Trailed 2",
+    "description": "Durable and lightweight luggage designed for modern adventures.",
+    "category": "luggage",
+    "trending": true,
+    "coverImage": "m2.webp",
+    "oldPrice": 2499,
+    "newPrice": 1099
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a2",
+    "title": "Trailed 7",
+    "description": "A compact and durable backpack designed for urban explorers.",
+    "category": "backpack",
+    "trending": true,
+    "coverImage": "mb1.webp",
+    "oldPrice": 1999,
+    "newPrice": 1599
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a0",
+    "title": "Trailed 5",
+    "description": "A spacious travel bag with a classic design for every traveler.",
+    "category": "luggage",
+    "trending": true,
+    "coverImage": "m5.webp",
+    "oldPrice": 5999,
+    "newPrice": 5599
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a9",
+    "title": "Trailed 14",
+    "description": "Spacious duffle bag ideal for long trips and heavy packing.",
+    "category": "duffle",
+    "trending": false,
+    "coverImage": "md4.webp",
+    "oldPrice": 3499,
+    "newPrice": 2499
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d4449659c",
+    "title": "Trailed 1",
+    "description": "A sleek and stylish luggage bag perfect for frequent travelers.",
+    "category": "luggage",
+    "trending": true,
+    "coverImage": "m1.webp",
+    "oldPrice": 2999,
+    "newPrice": 2599
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a1",
+    "title": "Trailed 6",
+    "description": "Travel light and in style with this versatile luggage option.",
+    "category": "luggage",
+    "trending": false,
+    "coverImage": "m6.webp",
+    "oldPrice": 4499,
+    "newPrice": 3899
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a4",
+    "title": "Trailed 9",
+    "description": "A stylish backpack with a water-resistant exterior for outdoor trips.",
+    "category": "backpack",
+    "trending": false,
+    "coverImage": "mb3.webp",
+    "oldPrice": 2799,
+    "newPrice": 2499
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965a7",
+    "title": "Trailed 12",
+    "description": "Compact duffle with a sleek design for quick getaways or gym sessions.",
+    "category": "duffle",
+    "trending": true,
+    "coverImage": "md2.webp",
+    "oldPrice": 1999,
+    "newPrice": 1599
+  },
+  {
+    "createdAt": "2025-07-22T15:10:21.165Z",
+    "_id": "675acfebdbd6195d444965aa",
+    "title": "Trailed 15",
+    "description": "A versatile duffle bag with multiple compartments for easy organization.",
+    "category": "duffle",
+    "trending": false,
+    "coverImage": "md5.webp",
+    "oldPrice": 2299,
+    "newPrice": 1999
+  }
+]

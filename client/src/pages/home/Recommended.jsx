@@ -1,20 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import productData from "../../data/products.json"; // path is correct
 
-// Import Swiper styles
+// Swiper styles
 import "swiper/css";
-
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// import required modules
+// Required modules
 import { Navigation, Pagination } from "swiper/modules";
 import { BagCard } from "../bags/BagCard";
-import { useFetchAllBagsQuery } from "../../redux/services/bagApi";
 import { Toaster } from "sonner";
 
 export const Recommended = () => {
-  const { data: bags = [] } = useFetchAllBagsQuery();
+  const [bags, setBags] = useState([]);
+
+  useEffect(() => {
+    setBags(productData); // Load from local JSON
+  }, []);
 
   return (
     <div className="my-10 md:px-10 px-2" id="recommended">
@@ -35,7 +38,6 @@ export const Recommended = () => {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-
           1024: {
             slidesPerView: 2,
             spaceBetween: 50,
@@ -45,16 +47,14 @@ export const Recommended = () => {
             spaceBetween: 50,
           },
         }}
-        className="mySwiper">
-        <div>
-          {bags &&
-            bags.length > 0 &&
-            bags.slice(4, 12).map((bag, index) => (
-              <SwiperSlide key={index}>
-                <BagCard bag={bag} />
-              </SwiperSlide>
-            ))}
-        </div>
+        className="mySwiper"
+      >
+        {bags && bags.length > 0 &&
+          bags.slice(4, 12).map((bag, index) => (
+            <SwiperSlide key={index}>
+              <BagCard bag={bag} />
+            </SwiperSlide>
+          ))}
       </Swiper>
     </div>
   );

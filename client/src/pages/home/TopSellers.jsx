@@ -1,52 +1,56 @@
 import React, { useEffect, useState } from "react";
 import { BagCard } from "../bags/BagCard";
 import { Swiper, SwiperSlide } from "swiper/react";
+import productData from "../../data/products.json"; // Using local data
 
-// Import Swiper styles
+// Swiper styles
 import "swiper/css";
-
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-// import required modules
+// Required modules
 import { Navigation, Pagination } from "swiper/modules";
-import { useFetchAllBagsQuery } from "../../redux/services/bagApi";
 import { Toaster } from "sonner";
 
 const categories = ["All", "Backpack", "Duffle", "Luggage"];
 
 export const TopSellers = () => {
-  // const [bags, setBags] = useState([]);
   const [selectedCategories, setSelectedCategories] = useState("All");
+  const [bags, setBags] = useState([]);
 
-  const { data: bags = [] } = useFetchAllBagsQuery();
+  useEffect(() => {
+    setBags(productData); // Load from local JSON
+  }, []);
 
   const filteredBags =
     selectedCategories === "All"
       ? bags
       : bags.filter(
-          (item) => item.category === selectedCategories.toLocaleLowerCase()
+          (item) =>
+            item.category.toLowerCase() === selectedCategories.toLowerCase()
         );
 
   return (
     <div className="my-10 md:px-10 px-2" id="top-sellers">
       <Toaster richColors position="top-center" />
       <h2 className="text-3xl font-semibold mb-6">Top Sellers</h2>
-      <Toaster richColors position="top-center" />
+
       {/* category filter */}
       <div className="mb-8">
         <select
           name="category"
           id="category"
-          className="border bg-[#eaeaea] border-gray-400  rounded-md focus:outline-none px-4 py-2 "
-          onChange={(e) => setSelectedCategories(e.target.value)}>
-          {categories.map((items, index) => (
-            <option value={items} className="py-2 px-8" key={index}>
-              {items}
+          className="border bg-[#eaeaea] border-gray-400 rounded-md focus:outline-none px-4 py-2"
+          onChange={(e) => setSelectedCategories(e.target.value)}
+        >
+          {categories.map((cat, index) => (
+            <option value={cat} key={index}>
+              {cat}
             </option>
           ))}
         </select>
       </div>
+
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -61,7 +65,6 @@ export const TopSellers = () => {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-
           1024: {
             slidesPerView: 2,
             spaceBetween: 50,
@@ -71,16 +74,14 @@ export const TopSellers = () => {
             spaceBetween: 50,
           },
         }}
-        className="mySwiper">
-        <div>
-          {filteredBags &&
-            filteredBags.length > 0 &&
-            filteredBags.map((bag, index) => (
-              <SwiperSlide key={index}>
-                <BagCard bag={bag} />
-              </SwiperSlide>
-            ))}
-        </div>
+        className="mySwiper"
+      >
+        {filteredBags && filteredBags.length > 0 &&
+          filteredBags.map((bag, index) => (
+            <SwiperSlide key={index}>
+              <BagCard bag={bag} />
+            </SwiperSlide>
+          ))}
       </Swiper>
     </div>
   );
