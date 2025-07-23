@@ -19,7 +19,7 @@ export const Hero = () => {
       <div className="absolute text-white translate-y-1/2 md:top-1/3 top-1/4 md:translate-x-1.5 md:right-1/2 md:pr-24  md:pl-10 pl-0  sm:right-1/2 sm:translate-x-1/4   translate-x-1/4 right-1/3">
         <h2 className="sm:text-6xl text-5xl font-semibold mb-10">
           Unzip the Madness <br />
-          Made by-Gaurav
+          Buyzoid by-Gaurav
         </h2>
         <a
           href="#top-sellers"

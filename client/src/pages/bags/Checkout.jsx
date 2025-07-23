@@ -98,7 +98,7 @@ export const Checkout = () => {
                     <div className="md:col-span-5">
                       <label html="phone">Phone Number</label>
                       <input
-                        type="number"
+                        type="tel"
                         name="phone"
                         id="phone"
                         {...register("phone", { required: true })}

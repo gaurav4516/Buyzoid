@@ -1,31 +1,36 @@
 [
   {
     "id": 1,
-    "title": "Buyzoid Luggage: The Perfect Travel Companion",
+    "title": "Buyzoid by G – Ultimate Travel Luggage for Every Journey",
+    "href": "https://buyzoid.vercel.app/",
     "description": "Discover how Buyzoid luggage combines style, durability, and functionality, making it the ultimate choice for travelers who want reliability and elegance.",
     "image": "m2.webp"
   },
   {
     "id": 2,
-    "title": "Revolutionary Backpack Design by Buyzoid",
+    "title": "Buyzoid by G – Game-Changing Ergonomic Backpack Design",
+    "href": "https://buyzoid.vercel.app/",
     "description": "Buyzoid introduces its innovative backpack featuring ergonomic design, lightweight material, and maximum storage capacity for every adventure.",
     "image": "mb3.webp"
   },
   {
     "id": 3,
-    "title": "Buyzoid's Duffle Bags Built for Every Journey",
+    "title": "Buyzoid by G – Duffle Bags Engineered for Tough Travels",
+    "href": "https://buyzoid.vercel.app/",
     "description": "Explore Buyzoid's premium duffle bags designed to handle everything from gym gear to weekend getaways with unmatched durability and style.",
     "image": "md2.webp"
   },
   {
     "id": 4,
-    "title": "Buyzoid Bags Trending for Travel Enthusiasts",
+    "title": "Buyzoid by G – Trending Bag Innovations for Modern Travelers",
+    "href": "https://buyzoid.vercel.app/",
     "description": "Buyzoid bags are making waves in the travel community with their record-breaking features, including water resistance, multi-compartment organization, and unique designs.",
     "image": "m4.webp"
   },
   {
     "id": 5,
-    "title": "Buyzoid’s Sleek and Stylish Backpacks",
+    "title": "Buyzoid by G – Sleek Rucksacks for City & Outdoor Life",
+    "href": "https://buyzoid.vercel.app/",
     "description": "The latest rucksack from Buyzoid boasts cutting-edge design, improved comfort, and a modern aesthetic, perfect for outdoor enthusiasts and city dwellers alike.",
     "image": "mb1.webp"
   }
