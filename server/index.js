@@ -18,7 +18,7 @@ app.use(
       "http://localhost:5173",             // local dev
       "https://trailed-v2.vercel.app",     // old frontend
       "https://buyzoid.vercel.app",  
-       "https://buyzoid-git-main-gaurav4516s-projects.vercel.app",      // ✅ new frontend (your deployed one)
+            // ✅ new frontend (your deployed one)
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
