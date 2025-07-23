@@ -14,16 +14,33 @@ app.use(express.json());
 // ✅ Updated CORS configuration
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",             // local dev
-      "https://trailed-v2.vercel.app",     // old frontend
-      "https://buyzoid.vercel.app",        // ✅ new frontend (your deployed one)
-    ],
+    origin: (origin, callback) => {
+      const allowedOrigins = [
+        "http://localhost:5173",
+        "https://trailed-v2.vercel.app",
+        "https://buyzoid.vercel.app",
+      ];
+
+      if (!origin) {
+        // Allow requests like Postman or server-to-server
+        return callback(null, true);
+      }
+
+      if (
+        allowedOrigins.includes(origin) ||
+        origin.endsWith(".vercel.app")
+      ) {
+        return callback(null, true);
+      }
+
+      return callback(new Error("Not allowed by CORS"));
+    },
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+
 
 // ===== ROUTES =====
 const bagRoutes = require("./src/bags/bag.routes");
